@@ -1,70 +1,84 @@
-.body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.top{
-    margin: 20px;
-    border: 1px solid black;
-    width: 100%;
-    height: 200px;
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.top-avatar{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.top {
+  margin: 20px;
+  border: 1px solid black;
+  width: 100%;
+  height: 200px;
 }
-.top--avatar--img{
-    width: 100px;
-    height: 100px;
+.top-avatar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
-li{
-    display: inline;
+.top--avatar--img {
+  width: 100px;
+  height: 100px;
 }
-a{
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    font-size: 20px;
+li {
+  display: inline;
 }
-.top--avatar--input{
-    height: 20px;
-    border-radius: 20px;
-    outline: none;
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
 }
-.top--search{
-    position: relative;
+
+.top--items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.icon{
-    position: absolute;
-    right: 0;
+
+.top--avatar--input {
+  height: 20px;
+  border-radius: 20px;
+  outline: none;
 }
-.top--nav{
-    display: inline;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    float: right;
+.top--search {
+  position: relative;
 }
-.top--avatar--signup{
-    border-radius: 20px;
+.icon {
+  position: absolute;
+  right: 0;
 }
-.top--avatar--login{
-    border-radius: 20px;
+.top--nav {
+  display: inline;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  float: right;
 }
-.top--chu{
-    display: block;
+.top--avatar--signup {
+  border-radius: 20px;
 }
-.content{
-    margin: 20px;
-    border: 1px solid black;
-    width: 100%;
-    height: 900px;
+.top--avatar--login {
+  border-radius: 20px;
 }
-.footer{
-    margin: 20px;
-    border: 1px solid black;
-    width: 100%;
-    height: 500px;
+.top--chu {
+  display: block;
+}
+.content {
+  margin: 20px;
+  border: 1px solid black;
+  width: 100%;
+  height: 900px;
+}
+.footer {
+  margin: 20px;
+  border: 1px solid black;
+  width: 100%;
+  height: 500px;
 }
