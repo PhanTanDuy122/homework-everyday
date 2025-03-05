@@ -1,0 +1,124 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid black;
+  width: 90%;
+  height: 300px;
+  gap: 20px;
+}
+.top-avatar {
+  border: 1px solid black;
+  width: 30%;
+  height: 200px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.top-title {
+  border: 1px solid black;
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.top--a {
+  border: 1px solid black;
+  width: 70%;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.chuto {
+  font-size: 30px;
+}
+.top--b {
+  border: 1px solid black;
+  width: 70%;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.top--c {
+  border: 1px solid black;
+  width: 70%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.content {
+  border: 1px solid black;
+  width: 90%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.column-right {
+  border: 1px solid black;
+  width: 40%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.column-left {
+  border: 1px solid black;
+  width: 40%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.column--card--right {
+  border: 1px solid black;
+  width: 50%;
+  height: 100px;
+}
+
+.column--card--left {
+  border: 1px solid black;
+  width: 50%;
+  height: 100px;
+}
+.bottom {
+  border: 1px solid black;
+  width: 90%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.bottom--a {
+  border: 1px solid black;
+  width: 30%;
+  height: 200px;
+}
