@@ -134,7 +134,19 @@ body {
   gap: 10px;
 }
 
-.bottom__a {
+.bottom__left {
+  border: 1px solid black;
+  width: 30%;
+  height: 200px;
+}
+
+.bottom__mid {
+  border: 1px solid black;
+  width: 30%;
+  height: 200px;
+}
+
+.bottom__right {
   border: 1px solid black;
   width: 30%;
   height: 200px;
